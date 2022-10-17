@@ -60,7 +60,7 @@ void free_singly_linked_list(SinglyLinkedListNode* node) {
 void printLinkedList(SinglyLinkedListNode* head) {
     while(head != NULL){
         cout<<head ->data<<endl;
-        head = head ->next;
+        head = head ;
     }
 
 
