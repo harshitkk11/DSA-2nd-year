@@ -2,9 +2,10 @@
 using namespace std;
 
 class Stack{
+    public:
+    
     int A[1000];
     int end;
-    public:
 
     Stack(){
         end=0;
@@ -28,7 +29,14 @@ class Stack{
     }
 
     bool isEmpty(){
-		return 0;
+		if(end==0){
+            cout<<"Empty"<<endl;
+		    return true;
+        }
+        else{
+            cout<<"Not Empty"<<endl;
+		    return false;
+        }
 	}
 
 };
