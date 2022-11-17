@@ -32,7 +32,7 @@ public:
         return (end - start);
     }
 
-    int top(){
+    int front(){
         return A[start];
     }
 
@@ -54,31 +54,31 @@ int main(){
     que.push(1);
 
     cout<<"size:"<<que.size()<<endl;
-    cout<<"top:"<<que.top()<<endl;
+    cout<<"front:"<<que.front()<<endl;
     cout<<endl;
 
     que.push(2);
 
     cout<<"size:"<<que.size()<<endl;
-    cout<<"top:"<<que.top()<<endl;
+    cout<<"front:"<<que.front()<<endl;
     cout<<endl;
 
     que.push(3);
 
     cout<<"size:"<<que.size()<<endl;
-    cout<<"top:"<<que.top()<<endl;
+    cout<<"front:"<<que.front()<<endl;
     cout<<endl;
 
     que.push(4);
 
     cout<<"size:"<<que.size()<<endl;
-    cout<<"top:"<<que.top()<<endl;
+    cout<<"front:"<<que.front()<<endl;
     cout<<endl;
 
     que.push(5);
 
     cout<<"size:"<<que.size()<<endl;
-    cout<<"top:"<<que.top()<<endl;
+    cout<<"front:"<<que.front()<<endl;
     cout<<endl;
 
     // que.pop();
